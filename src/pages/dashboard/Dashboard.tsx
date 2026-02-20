@@ -9,7 +9,7 @@ import RecentClearancesCard from '@/components/cards/RecentClearancesCard/Recent
 import { SpringboardCards } from './SpringboardCards';
 import { CallToAction } from './CallToAction';
 import { Header } from './Header';
-import { CounterCards } from './CounterCards';
+// import { CounterCards } from './CounterCards';
 import { useTranslation } from '@/utils/hooks/useTranslation';
 
 export const Dashboard = () => {
@@ -23,7 +23,7 @@ export const Dashboard = () => {
                 </Col>
             </Row>
             <Row>
-                <CounterCards />
+                {/* <CounterCards /> */}
             </Row>
             <Row>
                 <Col>
@@ -33,7 +33,7 @@ export const Dashboard = () => {
                                 <RecentClearancesCard />
                             </Col>
                             <Col className='col-xl-4'>
-                                <SpringboardCards />
+                                {/* <SpringboardCards /> */}
                                 <CallToAction />
                             </Col>
                         </Row>
