@@ -18,7 +18,7 @@ export const AboutModal = ({ show, onHide }: AboutModalProps) => {
     const buildDate = new Date(__BUILD_DATE__).toLocaleString();
 
     return (
-        <Modal show={show} dialogClassName='xxl-modal' centered onHide={onHide}>
+        <Modal show={show} size='sm' centered onHide={onHide}>
             <Modal.Header closeButton>
                 <Modal.Title>About</Modal.Title>
             </Modal.Header>
